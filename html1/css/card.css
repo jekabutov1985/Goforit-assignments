@@ -1,0 +1,47 @@
+body {
+width:100%;
+margin: 0;
+font-family: Arial, sans-serif;
+font-size: 100%;
+background-color:gray;
+}
+a {
+color:steelblue;
+}
+#card {
+width:33.3%;
+margin: 0 auto;
+margin-top: 10px;
+padding: 1em;
+background-color: white;
+box-shadow: 3px 3px 4px 5px lightgray;
+}
+#card .section {
+margin-top: 1em;
+border-bottom: 1px solid gray;
+width: 100%;
+}
+#card .section:last-child {
+border-bottom: none;
+}
+.bold {
+font-weight:bold;
+}
+.centered {
+text-align: center;
+}
+.m-t {
+margin-top:15px;
+}
+
+.image-wrapper {
+	max-height:200px;
+	overflow:hidden;
+}
+
+
+
+
+
+
+
