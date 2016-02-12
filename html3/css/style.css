@@ -58,6 +58,9 @@ body {
 		border: 1px solid lightgray;
 		text-align:center;
 	}
+	.img-wrapper img {
+		width:100%;
+	}
 	.img-desc {
 		padding-left:1em;
 	}
@@ -95,7 +98,7 @@ body {
 	}
 	.site-footer .nav {
 		float:left;
-		width:80%;
+		width:60%;
 	}
 	.site-footer .nav li a:hover {
 		text-decoration: underline;
