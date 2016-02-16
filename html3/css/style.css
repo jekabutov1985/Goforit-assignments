@@ -2,7 +2,7 @@ body {
 		width:100%;
 		background-color: #e7f4f0;
 		font-size: 100%;
-		font-style: Calibri sans-serif;
+		font-family: Calibri sans-serif;
 	}
 
 	a {
@@ -83,7 +83,7 @@ body {
 	.list-group li:hover {
 		color:#323232;
 		padding-left:1em;
-		background-color: #e5e5e5;
+		background-color: #f2f2f2;
 	}
 	.list-group li:active {
 		background-color: #7f7f7f;

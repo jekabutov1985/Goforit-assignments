@@ -1,0 +1,160 @@
+body {
+	width:100%;
+	background: url("../img/body-bg.png") repeat 0% -5%;
+	font-size: 100%;
+	font-family: Calibri sans-serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+.container {
+	background-color: white;
+	margin-bottom:.5em;
+	-webkit-box-shadow: 0 0 2px 2px #323232;
+    -moz-box-shadow: 0 0 2px 2px #323232;
+    box-shadow: 0 0 2px 2px #323232;
+}
+
+/*Header */
+.header {
+   background: white;
+   font-size: .9em;
+}
+.header-top {
+      padding-right:1.4em;
+      padding-left: 1.5em;
+}
+.logo {
+	float:left;
+	height:165px;
+	width:35%;
+	background: url("../img/logo.png") no-repeat;
+}
+.header-r {
+	float:right;
+	width:65%;
+}
+.contacts {
+	text-align:left;
+	color: steelblue;
+	float:right;
+}
+.contacts p {
+	margin:4px;
+}
+.tour-list {
+	width:100%;
+	text-align:right;
+}
+.tour-list li {
+	display:inline-block;
+	padding: 1em;
+	text-align:center;
+}
+.tour-list li .caption {
+	margin-top:.4em;
+}
+.tour-list li img {
+	display:block;
+}
+
+.header-bg {
+	height:200px;
+	background: url("../img/header-bg.png") no-repeat;
+}
+
+.main-menu {
+   color:white;
+   background: #323232;
+}
+.main-menu > li {
+   padding:1em;
+}
+.main-menu .has-submenu {
+	position:relative;
+}
+
+.main-menu .has-submenu .sub-menu {
+	width: 100%;
+	border-top: 1px solid black;
+	background-color:#323232;
+	display:block;
+	position: absolute;
+	top: 100%;
+	padding: .5em 1.3em .2em .3em;
+	visibility:hidden;
+}
+.main-menu .has-submenu:hover > .sub-menu {
+	visibility:visible;
+}
+
+.main-menu .has-submenu .sub-menu:hover {
+	visibility:visible;
+}
+.main-menu .has-submenu .sub-menu > li {
+	margin-bottom: .5em;
+	display: block;
+}
+
+/* Main */
+
+.main {
+    height:500px;
+}
+
+/*Sidebar */
+.sidebar {
+	width: 20%;
+	background: lightgray;
+	color: black;
+	padding: 0 1em;
+	float:left;
+}
+.sidebar-r {
+	height:100%;
+}
+.sidebar-l {
+	height:100%;
+}
+/*Content */
+.content {
+	width:50%;
+	height: 100%;
+	background-color: white;
+	float:left;
+}
+
+/*Footer */
+.footer {
+	color:white;
+	text-align:center;
+	margin: 1em;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+.nav {
+		padding: 0;
+		margin:0;
+		border:1px solid transparent;
+		cursor:pointer;
+	}
+.nav li {
+	display:inline-block;
+}
+.center {
+	text-align:center;
+}
